@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIT14 Final Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Aboreto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+
+    <style>
+        body {
+            display: block;
+            background-image: url(images/wp.jpg);
+            background-size: 100%;
+            font-family: 'Advent Pro';
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #container {
+            display: flex;
+            max-width: 80%; 
+            margin: 10px auto;
+            background-image: linear-gradient(to bottom, #6F8FAF, #6082B6, #4682B4);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        #left-side {
+            flex: 1;
+            padding: 5%; 
+            text-align: center;
+        }
+
+        #right-side {
+            flex: 2;
+            padding: 5%; 
+        }
+
+        #portrait {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        #top-section {
+            margin-bottom: 5%;
+        }
+
+        h2{
+            font-family: 'Aboreto';
+            text-align: center;
+        }
+
+        h3{
+            font-family: 'Aboreto';
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        #bottom-section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .table {
+            width: 30%; 
+            margin-right: 5%; 
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 5%; 
+        }
+
+        th, td {
+            padding: 2%; 
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .fa {
+            padding: 15px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-facebook:hover {
+            cursor: pointer;
+            transition: 0.3s;
+            background: white;
+            color: #3B5998
+        }
+
+        .fa-instagram {
+            background: #C13584;
+            color: white;
+        }
+
+        .fa-instagram:hover {
+            cursor: pointer;
+            transition: 0.3s;
+            background: white;
+            color: #C13584
+        }
+
+        button{
+            text-align: center;
+            background: #555;
+            padding: 10px 10px;
+            color: #fff;
+            border-radius: 5px;
+            margin: 20px;
+            border: none;
+            font-size: 10px;
+            margin-left: 15%;
+            cursor: pointer;
+            transition: transform 0.5s;
+            display: inline-block;
+        }
+
+        .button:hover{
+            transform: translateY(-5px);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="left-side">
+            <img src="images/peakpx.jpg" alt="Your Portrait" id="portrait">
+            <div id="social-icons">
+                <a href="https://web.facebook.com/alceagabriel.linao/" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/al_linaz/" class="fa fa-instagram"></a>
+            </div>
+        </div>
+        <div id="right-side">
+            <div id="top-section">
+                <h2>About Me</h2>
+                <p>My name is Alcea Gabriel Linao and I am 19 years old.</p>
+                <p>I am a college student studying the course of Information Technology Major in Web Development.</p>
+                <p>I have basic knowledge on the following programs: Java, Python, HTML, CSS, and many more.</p>
+                <p>My hobbies include playing games, watching movies, reading books, and writing stories.</p>
+                <p>I have a variation of things to like such as RPG games, psychological or supernatural anime, and delicious food.</p>
+                <p>I also have a list of dislikes too such as going out, getting overwhelmed, and sweating too much.</p>
+            </div>
+
+            <hr class="solid">
+
+            <div id="bottom-section">
+                <div class="table">
+                    
+                    <h3>Project 1</h3>
+                    <table>
+                        <p>Learning Contract</p>
+                        <form action="learning contract/introweb.html">
+                        <button type="submit" class="button">SEE PROJECT</button>
+                        </form>
+                    </table>
+                </div>
+                <div class="table">
+                    <h3>Project 2</h3>
+                    <table>
+                        <p>Progress Bar with BootStrap</p>
+                        <form action="progress bar/progbar.html">
+                        <button type="submit" class="button">SEE PROJECT</button>
+                        </form>
+                    </table>
+                </div>
+                <div class="table">
+                    <h3>Project 3</h3>
+                    <table>
+                        <p>Website with Improved CSS</p>
+                        <form action="code/index.html">
+                        <button type="submit" class="button">SEE PROJECT</button>
+                        </form>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

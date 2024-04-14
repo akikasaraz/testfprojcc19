@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(rainneko.css);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: lightslategrey;
+    font-size: 38px;
+}
+
+.main p{
+    color: snow;
+    font-size: 20px;
+}
+
+.expec{
+    position: absolute;
+    top: 34%;
+    left: 50%;  
+    transform: translate(-50%,-50%);
+}
+
+.expec h2{
+    color: lightslategray;
+    font-size: 30px;
+    text-align: center;
+}
+
+.expec p{
+    color: snow;
+    font-size: 20px;
+}
+
+.contri{
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%,-50%);
+}
+
+.contri h3{
+    color: lightslategray;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contri p{
+    color: snow;
+    font-size: 20px;
+}
+
+.motiv{
+    position: absolute;
+    top: 66%;
+    left: 50%;  
+    transform: translate(-50%,-50%);
+}
+
+.motiv h4{
+    color: lightslategray;
+    font-size: 30px;
+    text-align: center;
+}
+
+.motiv p{
+    color: snow;
+    font-size: 20px;
+}
+
+.hind{
+    position: absolute;
+    top: 82%;
+    left: 50%;  
+    transform: translate(-50%,-50%);
+}
+
+.hind h5{
+    color: lightslategray;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hind p{
+    color: snow;
+    font-size: 20px;
+}

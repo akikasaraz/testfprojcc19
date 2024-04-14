@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punk RSVP Form</title>
+    <link rel="stylesheet" href="rsvpcss.css">
+  </head>
+
+  <body>
+    <div class="form">
+      <form id="rsvpForm">
+        <a class="back" href="frontpage.html">⇦</a>
+        <h1>Do you have what it takes to be a Phantom Thief?</h1>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="First and Last Name" required>
+
+        <label for="attend">Will you Attend?</label>
+        <select id="attend" name="attend" required="">
+          <option value="" selected="" disabled="">Select</option>
+          <option value="Yes">Yes, I am ready to be a phantom thief.</option>
+          <option value="No">No, I don't want to be a phantom thief.</option>
+        </select>
+
+        <label for="guests">How many thieves should we expect?</label>
+        <input type="number" id="guests" name="guests" placeholder="Choose from 1-8" min="1" max="8" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+
+</html>
